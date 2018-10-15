@@ -1,0 +1,19 @@
+{
+  "name": "pomodoro-timer",
+  "main": "./lib/pomodoro-timer",
+  "version": "0.0.1",
+  "description": "A simple method to control your time with the pomodoro technique",
+  "keywords": [
+      "Time", "Pomodoro", "time", "pomodoro", "timer"
+  ],
+  "activationCommands": {
+    "atom-workspace": "pomodoro-timer:toggle"
+  },
+  "repository": "https://github.com/paulo-parone/pomodoro-timer.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

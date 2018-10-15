@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle pomodoro-timer",
+        "command": "pomodoro-timer:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "pomodoro-timer",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "pomodoro-timer:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
